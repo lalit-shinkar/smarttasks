@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2 class="mb-3">Add Task</h2>
+<form>
+    <div class="mb-3">
+        <label class="form-label">Task Title</label>
+        <input type="text" class="form-control" placeholder="Enter title">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Description</label>
+        <textarea class="form-control" placeholder="Describe task..."></textarea>
+    </div>
+    <button type="submit" class="btn btn-success">Submit</button>
+</form>
+{% endblock %}
+
