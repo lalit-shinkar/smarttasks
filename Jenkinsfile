@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Code') {
             steps {
-                git 'https://github.com/<your-username>/smarttasks.git'
+                git 'https://github.com/lalit-shinkar/smarttasks.git'
             }
         }
 
